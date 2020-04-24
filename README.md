@@ -4,10 +4,10 @@
 git clone https://github.com/maciejmotyka/Brain.fm-Desktop-Client.git
 cd Brain.fm-Desktop-Client
 npm install
-npm start
 ## to test if it works
-npm run package:linux
+npm start
 ## package for linux
+npm run package:linux
 ```
 
 The app is now in the ./out directory. Copy it to some sensible location e.g.
