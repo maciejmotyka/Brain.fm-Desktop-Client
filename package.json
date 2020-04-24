@@ -6,6 +6,7 @@
   "scripts": {
     "start": "electron main.js",
     "package": "electron-packager . brainfm --all --out=./out --overwrite --icon=./brainfm.ico",
+    "package:linux": "electron-packager . brainfm --linux --prune=true --out=./out --overwrite --icon=./brainfm.ico",
     "package:mac": "electron-packager . Brain.fm --mac --out=./out --overwrite --icon=./brainfm.ico"
   },
   "author": "Dinius",
